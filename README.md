@@ -25,3 +25,12 @@ while i <= x:
   i = i+1
   
 print("This is all we have")
+
+a = list(range(1, 100))
+print(a)
+
+total1 = 0
+for i in a:
+  if i % 3 == 0 or i % 5 == 0:
+    total1 = total1 + i
+print(total1)
