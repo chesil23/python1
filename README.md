@@ -34,3 +34,10 @@ for i in a:
   if i % 3 == 0 or i % 5 == 0:
     total1 = total1 + i
 print(total1)
+
+for i in range (1,100):
+  if i%2!=0:
+    continue
+  print(i)  
+#continue means skip
+
