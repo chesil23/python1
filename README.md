@@ -41,3 +41,11 @@ for i in range (1,100):
   print(i)  
 #continue means skip
 
+for i in range(1,101):
+  if i%2 ==0:
+    pass
+  else:
+    print(i)
+#pass just means pass,leave it,ignore it
+     
+
