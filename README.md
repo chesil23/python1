@@ -34,3 +34,5 @@ for i in a:
   if i % 3 == 0 or i % 5 == 0:
     total1 = total1 + i
 print(total1)
+
+#testing branch
